@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navBudgets"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Budgets" />
+        <item
+            android:id="@+id/navAddTransaction"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Add Transaction" />
+        <item
+            android:id="@+id/navTransactions"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="Transactions" />
+        <item
+            android:id="@+id/navLogout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>
